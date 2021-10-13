@@ -7,7 +7,7 @@ Here's how it works:
 First, **Connect your wallet** using the button at the top right corner. Multiple types of wallets are supported, but most people use [MetaMask](https://metamask.io/), which can be downloaded for free as a Chrome extension or through the Apple and Android app stores. Make sure that your wallet is connected to the Ethereum network.
 
 <p align="center">
-  <img width="1266.75" height="345.75" src="https://i.imgur.com/H0Uc8e8.png"/>
+  <img width="1266.75" height="345.75" className="topRightImg" src="https://i.imgur.com/H0Uc8e8.png"/>
 </p>
 
 ## If you **already have the required token** for the vault that you would like to deposit in:

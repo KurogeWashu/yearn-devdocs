@@ -48,6 +48,11 @@ html[data-theme="light"] .DocSearch:hover {
   padding: 0 var(--ifm-pre-padding);
 }
 
+.topRightImg {
+  object-fit: cover;
+  object-position: 100% 0%;
+}
+
 @media screen and (max-width: 1082px) {
   .DocSearch {
     width: inherit;
