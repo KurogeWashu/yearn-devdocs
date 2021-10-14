@@ -16,7 +16,7 @@ First, **Connect your wallet** using the button at the top right corner. Multipl
 2. Enter the amount of tokens you want to deposit into the vault. If you are depositing ETH, make sure you have enough ETH left over to pay for future transactions that you might need to make.
 
 <p align="center">
-  <img width="914.26" height="360.75" src="https://i.imgur.com/LGdRAMQ.png"/>
+  <img width="914.26" height="360.75" className="topLeftImg" src="https://i.imgur.com/LGdRAMQ.png"/>
 </p>
 
 3. Click 'Approve' or 'Deposit' button, depending on if you have previously approved
@@ -29,7 +29,7 @@ First, **Connect your wallet** using the button at the top right corner. Multipl
 6. When your transaction succeeds, you will see your deposited balance in the vault's interface, which should appear at the top of the vault list.
 
 <p align="center">
-  <img width="928.5" height="93.75" src="https://i.imgur.com/JvNQ3l2.png"/>
+  <img width="928.5" height="93.75" className="topLeftImg" src="https://i.imgur.com/JvNQ3l2.png"/>
 </p>
 
 When you're ready to withdraw:
@@ -38,7 +38,7 @@ When you're ready to withdraw:
 2. Enter the amount you want to withdraw, or click 'Max' to withdraw the entire balance.
 
 <p align="center">
-  <img width="910.5" height="361.5" src="https://i.imgur.com/Y3NsCRb.png"/>
+  <img width="910.5" height="361.5" className="bottomLeftImg" src="https://i.imgur.com/Y3NsCRb.png"/>
 </p>
 
 3. Click 'Withdraw'
@@ -60,7 +60,7 @@ Thankfully, due to Yearn's 'zap' feature, this can all be done in the same trans
 3. Select which token you would like to be converted into crvSTETH. It will only display the tokens that are in your wallet.
 
 <p align="center">
-  <img width="909" height="363" src="https://i.imgur.com/6K1luO7.png"/>
+  <img width="909" height="363" className="bottomLeftImg" src="https://i.imgur.com/6K1luO7.png"/>
 </p>
 
 4. Enter the amount of tokens you would like to deposit and click 'Approve' or 'Deposit' depending on whether or not you have previously approved the token.
@@ -73,7 +73,7 @@ When you're ready to withdraw:
 2. Click the dropdown box by the 'Withdraw' button
 
 <p align="center">
-  <img width="915.75" height="600.75" src="https://i.imgur.com/2UyXKN0.png"/>
+  <img width="915.75" height="600.75" className="bottomLeftImg" src="https://i.imgur.com/2UyXKN0.png"/>
 </p>
 
 3. Select which asset you would like to receive upon withdrawal. Your options will be the crvSTETH, ETH, BTC, DAI, USDC or USDT
