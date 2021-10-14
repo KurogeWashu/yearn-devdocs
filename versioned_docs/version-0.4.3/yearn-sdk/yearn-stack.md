@@ -4,7 +4,9 @@ Yearn SDK integrates several components, both on-chain and off-chain.
 
 ## Backend stack
 
-![Backend Chart](https://i.imgur.com/2koeiK5.jpg)
+<p align="center">
+  <img src="/static/img/docs/stack.png" alt="Backend Chart"/>
+</p>
 
 ### On Chain
 
@@ -78,12 +80,12 @@ Example: [1inch Staking Reinvest](https://meta.yearn.network/strategies/1InchSta
 
 ```json
 {
-    "$schema": "strategy",
-    "name": "1inch Staking Reinvest",
-    "description": "Stakes {{token}} on [1inch DAO](https://app.1inch.io/#/1/dao/governance) to collect governance rewards. Rewards are harvested and deposited back into the strategy.",
-    "addresses": ["0xB12F6A5776EDd2e923fD1Ce93041B2000A22dDc7"],
-    "protocols": ["1inch"],
-    "authors": []
+  "$schema": "strategy",
+  "name": "1inch Staking Reinvest",
+  "description": "Stakes {{token}} on [1inch DAO](https://app.1inch.io/#/1/dao/governance) to collect governance rewards. Rewards are harvested and deposited back into the strategy.",
+  "addresses": ["0xB12F6A5776EDd2e923fD1Ce93041B2000A22dDc7"],
+  "protocols": ["1inch"],
+  "authors": []
 }
 ```
 
@@ -102,6 +104,6 @@ Example: [aLINK](https://meta.yearn.network/vaults/0x25212Df29073FfFA7A67399AcEf
   "deposit": {
     "disabled": true, // we can disable interaction directly by editing this file on the repo
     "message": "This vault is no longer active and its strategy is unwinding. Withdrawals will incur a 1% withdrawal fee during this process."
-  },
+  }
 }
 ```
